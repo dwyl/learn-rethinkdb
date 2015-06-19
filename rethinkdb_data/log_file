@@ -1,0 +1,14 @@
+2015-06-19T11:06:04.748625000 0.087960s notice: Recursively removing directory /Users/n/code/learn-rethinkdb/rethinkdb_data/tmp
+2015-06-19T11:06:04.751135000 0.090472s notice: Initializing directory /Users/n/code/learn-rethinkdb/rethinkdb_data
+2015-06-19T11:06:04.751317000 0.090649s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/n/code/learn-rethinkdb/rethinkdb_data' did not already exist or is empty.)
+2015-06-19T11:06:04.751343000 0.090675s notice: Running rethinkdb 2.0.3 (CLANG 6.1.0 (clang-602.0.53))...
+2015-06-19T11:06:04.768145000 0.107479s notice: Running on Darwin 14.3.0 x86_64
+2015-06-19T11:06:04.768198000 0.107530s notice: Loading data from directory /Users/n/code/learn-rethinkdb/rethinkdb_data
+2015-06-19T11:06:05.010045000 0.349377s info: Automatically using cache size of 100 MB
+2015-06-19T11:06:05.010056000 0.349388s warn: Cache size is very low and may impact performance.
+2015-06-19T11:06:05.011366000 0.350698s notice: Listening for intracluster connections on port 29015
+2015-06-19T11:06:05.014413000 0.353745s notice: Listening for client driver connections on port 28015
+2015-06-19T11:06:05.014611000 0.353943s notice: Listening for administrative HTTP connections on port 8080
+2015-06-19T11:06:05.014613000 0.353945s notice: Listening on addresses: 127.0.0.1, ::1
+2015-06-19T11:06:05.014617000 0.353948s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-06-19T11:06:05.014620000 0.353951s notice: Server ready, "local_7ob" 4e945df0-f4bc-40f8-bd1f-2901af4ef1f9
