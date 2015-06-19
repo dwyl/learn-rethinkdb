@@ -48,13 +48,19 @@ rethinkdb
 You should see (*something similar to this*):
 ![learn-rethinkdb-start-server](https://cloud.githubusercontent.com/assets/194400/8251351/c8aeafb8-1673-11e5-8ec2-d7a46fa3d7ad.png)
 
-Check it worked by visiting:
+Check it worked by visiting: http://127.0.0.1:8080/  
+You should expect to see:
+
+![rethinkdb-admin-interface](https://cloud.githubusercontent.com/assets/194400/8252011/5a749d86-1679-11e5-925e-a5c6cf61bdf2.png)
 
 
 ## Useful Links
 
++ Advancing the realtime web (*the _Why_? behind RethinkDB*):
+http://www.rethinkdb.com/blog/realtime-web/
 + Installation: http://www.rethinkdb.com/docs/install/
 + Quick Start: http://www.rethinkdb.com/docs/quickstart/
 + Building **Realtime Web Applications** Just Got ***Easy***: https://www.youtube.com/watch?v=ZwyjDiikNKk
 + Intro to **Platzi** (*why/how they are using RethinkDB*): https://www.youtube.com/watch?v=Nb_UzRYDB40
 + Platzi **RethinkDB Course**: https://courses.platzi.com/courses/rethinkdb-databases/
++ Nodejs driver (module): http://www.rethinkdb.com/docs/install-drivers/javascript/

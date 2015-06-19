@@ -1,0 +1,24 @@
+{
+  "name": "learn-rethinkdb",
+  "version": "1.0.0",
+  "description": "Learn how to use RethinkDB to power your next real-time app!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nelsonic/learn-rethinkdb.git"
+  },
+  "keywords": [
+    "rethinkdb",
+    "tutorial",
+    "from-scratch"
+  ],
+  "author": "nelsonic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nelsonic/learn-rethinkdb/issues"
+  },
+  "homepage": "https://github.com/nelsonic/learn-rethinkdb#readme"
+}
