@@ -2,10 +2,18 @@
 
 Learn how to use RethinkDB to power your next real-time app!
 
+> RethinkDB is to MongoDB as Node.js is to PHP;
+prepare to have your mind *blown*!
+http://www.rethinkdb.com/docs/rethinkdb-vs-mongodb/
+
+## What?
+
++ RethinkDB intro: https://youtu.be/cnpSi9qI02E
+
 
 ## How?
 
-### Instalallation
+### Installation
 
 #### Mac
 
@@ -26,10 +34,8 @@ Once it installation completes (*with brew*) you should see:
 In case you missed it, these are the suggested commands to  
 ***ensure RethinkDB starts when your Mac (re)boots***:
 ```sh
-To have launchd start rethinkdb at login:
-    ln -sfv /usr/local/opt/rethinkdb/*.plist ~/Library/LaunchAgents
-Then to load rethinkdb now:
-    launchctl load ~/Library/LaunchAgents/homebrew.mxcl.rethinkdb.plist
+ln -sfv /usr/local/opt/rethinkdb/*.plist ~/Library/LaunchAgents
+launchctl load ~/Library/LaunchAgents/homebrew.mxcl.rethinkdb.plist
 ```
 
 
@@ -61,6 +67,9 @@ http://www.rethinkdb.com/blog/realtime-web/
 + Installation: http://www.rethinkdb.com/docs/install/
 + Quick Start: http://www.rethinkdb.com/docs/quickstart/
 + Building **Realtime Web Applications** Just Got ***Easy***: https://www.youtube.com/watch?v=ZwyjDiikNKk
++  (_"[its not all rainbows and butterflies](https://youtu.be/nIjVuRTm-dc?t=1m46s)" ... be **aware** of the_) ***Limitations***: http://rethinkdb.com/limitations/
 + Intro to **Platzi** (*why/how they are using RethinkDB*): https://www.youtube.com/watch?v=Nb_UzRYDB40
 + Platzi **RethinkDB Course**: https://courses.platzi.com/courses/rethinkdb-databases/
++ Build a _**realtime RethinkDB cluster monitoring**_ app with live graphs
+https://www.youtube.com/watch?v=dhb63boH8E8
 + Nodejs driver (module): http://www.rethinkdb.com/docs/install-drivers/javascript/
