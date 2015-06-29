@@ -12,3 +12,11 @@
 2015-06-19T11:06:05.014613000 0.353945s notice: Listening on addresses: 127.0.0.1, ::1
 2015-06-19T11:06:05.014617000 0.353948s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
 2015-06-19T11:06:05.014620000 0.353951s notice: Server ready, "local_7ob" 4e945df0-f4bc-40f8-bd1f-2901af4ef1f9
+2015-06-29T13:56:57.110132000 0.005439s notice: Recursively removing directory /Users/n/code/learn-rethinkdb/rethinkdb_data/tmp
+2015-06-29T13:56:57.111552000 0.006861s notice: Running rethinkdb 2.0.3 (CLANG 6.1.0 (clang-602.0.53))...
+2015-06-29T13:56:57.116609000 0.011916s notice: Running on Darwin 14.3.0 x86_64
+2015-06-29T13:56:57.116649000 0.011955s notice: Loading data from directory /Users/n/code/learn-rethinkdb/rethinkdb_data
+2015-06-29T13:56:57.198946000 0.094253s info: Automatically using cache size of 100 MB
+2015-06-29T13:56:57.199036000 0.094342s warn: Cache size does not leave much memory for server and query overhead (available memory: 1108 MB).
+2015-06-29T13:56:57.199041000 0.094347s warn: Cache size is very low and may impact performance.
+2015-06-29T13:56:57.199911000 0.095218s error: TCP socket creation failed for port 29015: Address already in use.

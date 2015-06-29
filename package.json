@@ -4,7 +4,8 @@
   "description": "Learn how to use RethinkDB to power your next real-time app!",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test/*",
+    "admin": "./node_modules/.bin/nodemon admin-proxy.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/nelsonic/learn-rethinkdb/issues"
   },
-  "homepage": "https://github.com/nelsonic/learn-rethinkdb#readme"
+  "homepage": "https://github.com/nelsonic/learn-rethinkdb#readme",
+  "dependencies": {
+    "hapi": "^8.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.3.7"
+  }
 }

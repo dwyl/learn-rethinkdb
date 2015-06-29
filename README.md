@@ -38,6 +38,7 @@ ln -sfv /usr/local/opt/rethinkdb/*.plist ~/Library/LaunchAgents
 launchctl load ~/Library/LaunchAgents/homebrew.mxcl.rethinkdb.plist
 ```
 
+> Detailed stop/start instructions: http://rethinkdb.com/docs/start-on-startup/
 
 ### Quick Start
 
